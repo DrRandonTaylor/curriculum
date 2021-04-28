@@ -55,6 +55,12 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
+If your terminal stops responding at "Checking for sudo access" and won't allow you to enter a password you may need to copy and paste the following into your terminal to allow access:
+
+~~~bash
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+~~~
+
 #### Step 1.1: Update Git
 
 MacOS already comes with a version of Git, but you should update to the latest version. In the terminal, type
